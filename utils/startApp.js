@@ -1,22 +1,22 @@
+import { getVocab } from '../api/vocabData';
 import logoutButton from '../components/buttons/logoutButton';
 import domBuilder from '../components/shared/domBuilder';
 import navBar from '../components/shared/navBar';
-import domEvents from '../events/domEvents';
-import formEvents from '../events/formEvents';
-// import navigationEvents from '../events/navigationEvents';
-// import { getBooks } from '../api/bookData';
-// import { showBooks } from '../pages/books';
+import navEvents from '../events/navEvents';
+// import domEvents from '../events/domEvents';
+// import formEvents from '../events/formEvents';
+import { showVocab } from '../pages/vocab';
 
-const startApp = (uid) => {
-  domBuilder(uid); // BUILD THE DOM
-  domEvents(uid); // ADD THE EVENT LISTENTERS TO THE DOM
-  formEvents(uid); // ADD FORM EVENT LISTENTERS TO THE DOM
+const startApp = () => {
+  domBuilder(); // BUILD THE DOM
   navBar(); // DYNAMICALLY ADD THE NAV
+  // domEvents(); // ADD THE EVENT LISTENTERS TO THE DOM
+  // formEvents(); // ADD FORM EVENT LISTENTERS TO THE DOM
   logoutButton(); // ADD THE LOGOUT BUTTON COMPONENT
-  // navigationEvents(uid); // ATTACH THE EVENT LISTENERS TO THE NAVBAR
+  navEvents(); // ATTACH THE EVENT LISTENERS TO THE NAVBAR
 
-  // TODO: Put all books on the DOM on App load
-  // getBooks(uid).then((books) => showBooks(books));
+  // Put all vocab on the DOM on App load
+  getVocab().then((vocab) => showVocab(vocab));
 };
 
 export default startApp;
