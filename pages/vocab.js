@@ -1,4 +1,4 @@
-import clearDom from '../utils/clearDom';
+// import clearDom from '../utils/clearDom';
 import renderToDOM from '../utils/renderToDom';
 
 const emptyVocab = () => {
@@ -6,13 +6,8 @@ const emptyVocab = () => {
   renderToDOM('#vocab', domString);
 };
 
-const showVocab = (array, clear = true) => {
-  if (clear) {
-    clearDom();
-    const btnString = '<button class="btn btn-success btn-lg mb-4" id="add-vocab-btn">Add Vocab</button>';
-    renderToDOM('#add-button', btnString);
-  }
-
+const showVocab = (array) => {
+  // clearDom()
   let domString = '';
   array.forEach((item) => {
     domString += `

@@ -10,14 +10,6 @@ const navBar = () => {
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#" id="home">
-                All Vocab <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" id="languages">Languages</a>
-            </li>
             <li>
             <input
               class="form-control mr-sm-2"
@@ -26,9 +18,9 @@ const navBar = () => {
               aria-label="Search"
             />
             </li>
+            <button class="btn btn-success btn-lg mb-4" id="add-vocab-btn">Add Vocab</button>
           </ul>
           <span class="navbar-text">
-            <div id="cart-button"></div>
             <div id="logout-button"></div>
           </span>
         </div>
