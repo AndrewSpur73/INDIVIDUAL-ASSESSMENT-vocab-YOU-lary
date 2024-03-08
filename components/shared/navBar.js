@@ -18,7 +18,7 @@ const navBar = () => {
               aria-label="Search"
             />
             </li>
-            <button class="btn btn-success btn-lg mb-4" id="add-vocab-btn">Add Vocab</button>
+            <button class="btn btn-success btn-lg mb-4" id="add-vocab-btn">Add New Vocab</button>
           </ul>
           <span class="navbar-text">
             <div id="logout-button"></div>
