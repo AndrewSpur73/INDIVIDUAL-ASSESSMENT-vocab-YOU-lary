@@ -1,5 +1,6 @@
 import { getVocab } from '../api/vocabData';
-import { showVocab } from '../pages/vocab';
+import addVocabForm from '../components/forms/addVocabForm';
+import showVocab from '../pages/vocab';
 import { signOut } from '../utils/auth';
 
 // navigation events
@@ -10,6 +11,10 @@ const navEvents = () => {
   // ALL VOCAB
   document.querySelector('#all-vocab').addEventListener('click', () => {
     getVocab().then(showVocab);
+  });
+  // CREATE VOCAB BUTTON
+  document.querySelector('#add-vocab-btn').addEventListener('click', () => {
+    addVocabForm();
   });
 };
 
