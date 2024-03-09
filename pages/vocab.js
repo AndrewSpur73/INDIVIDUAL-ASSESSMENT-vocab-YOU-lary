@@ -5,7 +5,6 @@ import renderToDOM from '../utils/renderToDom';
 
 const showVocab = async (array) => {
   clearDom();
-  console.warn(array);
   const filterString = `
     <div class="d-flex flex-wrap justify-content-between my-3">
       <button class="btn all btn-lg buttonRow" id="allFilter">All</button>

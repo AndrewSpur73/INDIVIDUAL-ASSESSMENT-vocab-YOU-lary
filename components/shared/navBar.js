@@ -10,14 +10,6 @@ const navBar = () => {
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li>
-            <input
-              class="form-control mr-sm-2"
-              id="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            </li>
             <button class="btn btn-success btn-lg mb-4" id="add-vocab-btn">Add New Vocab</button>
           </ul>
           <span class="navbar-text">

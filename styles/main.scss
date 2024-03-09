@@ -3,8 +3,46 @@
 
 
 body {
-  background-color: antiquewhite;
-  color: brown;
   text-align: center;
   margin-top: 100px;
+  background-color: rgb(57, 131, 211);
+}
+
+#vocab {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#filterContainer {
+  color: white;
+  background-color: black;
+  border: 5px solid white;
+  margin-bottom: 30px;
+}
+
+.btn {
+  color: white;
+}
+
+#formContainer {
+  border: 5px solid black;
+  background-color: none;
+}
+
+#add-vocab-btn {
+  margin-left: 50px;
+  margin-top: 13px;
 }

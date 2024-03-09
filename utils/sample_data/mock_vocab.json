@@ -4,7 +4,7 @@
   "title":"Tag",
   "definition":"Definition: Tags are the basic building blocks of HTML. They are used to define elements within a web document and provide structure to the content. Tags are enclosed in angle brackets < > and typically come in pairs, with an opening tag indicating the beginning of an element and a closing tag indicating the end.",
   "timeSubmitted":"4/18/2023 04:06:17",
-  "uid": "",
+  "uid": "bMCSerl8q3VkkKAiB7Y8FAPT4Z63",
   "language_id":"-Ns-fIupGxQpuudOL4H6"
 },
 "-Ns-6LBEUUkkoGc8xwy8":{
@@ -12,7 +12,7 @@
   "title":"Attribute",
   "definition":"Attributes provide additional information about HTML elements and are used to modify the behavior or appearance of an element. Attributes are added to the opening tag of an element and consist of a name and a value separated by an equal sign =. Examples of attributes include src, href, and class.",
   "timeSubmitted":"7/2/2023 14:25:02",
-  "uid":"",
+  "uid":"bMCSerl8q3VkkKAiB7Y8FAPT4Z63",
   "language_id":"-Ns-fIupGxQpuudOL4H6"
 },
 "-Ns-6LBFhfATTuJzJpCa":{
@@ -20,7 +20,7 @@
   "title":"Element",
   "definition":"An element is a structural component of an HTML document, defined by a pair of tags enclosing content. Each element consists of an opening tag, content, and a closing tag. Elements can be nested within one another to create hierarchical structures.",
   "timeSubmitted":"5/14/2023 07:24:31",
-  "uid":"",
+  "uid":"ZJIQjh6LiSg0BXWRHxviYUR1eq42",
   "language_id":"-Ns-fIupGxQpuudOL4H6"
 },
 "-Ns-6LBHMUSTGeRjHoEX":{
@@ -28,7 +28,7 @@
   "title":"DOCTYPE Declaration",
   "definition":"The DOCTYPE declaration is an instruction at the beginning of an HTML document that specifies the version of HTML being used and provides instructions to the web browser on how to render the document. It helps ensure that the document is parsed and displayed correctly by web browsers.",
   "timeSubmitted":"8/16/2023 11:18:07",
-  "uid":"",
+  "uid":"ZJIQjh6LiSg0BXWRHxviYUR1eq42",
   "language_id":"-Ns-fIupGxQpuudOL4H6"
 },
 "-Ns-6LBI25XKsSIJy8MO":{
@@ -36,7 +36,7 @@
   "title":"Semantic HTML",
   "definition":"Semantic HTML refers to the use of HTML markup to convey the meaning and structure of content on a web page, rather than just its appearance. Semantic elements such as <header>, <footer>, <article>, and <nav> provide context and clarity to the content, making it more accessible to both users and search engines. Semantic HTML helps improve the organization, accessibility, and search engine optimization (SEO) of web pages.",
   "timeSubmitted":"9/7/2023 11:30:08",
-  "uid":"",
+  "uid":"ZJIQjh6LiSg0BXWRHxviYUR1eq42",
   "language_id":"-Ns-fIupGxQpuudOL4H6"
 },
 "-Ns-6LBJmcc5i9DmCXi8":{
@@ -44,7 +44,7 @@
   "title":"Selector",
   "definition":"Selectors are patterns used to target HTML elements on which styles are applied. They define which elements in the document tree will be affected by the rules specified in the CSS stylesheet. Selectors can target elements based on their type, class, ID, attributes, or relationship to other elements.",
   "timeSubmitted":"3/28/2023 18:45:14",
-  "uid":"",
+  "uid":"bMCSerl8q3VkkKAiB7Y8FAPT4Z63",
   "language_id":"-Ns-fIuqpHMA4NGJnX3t"
 },
 "-Ns-6LBKQwP8-Dsp3zOH":{
@@ -52,7 +52,7 @@
   "title":"Property",
   "definition":"Properties are the specific visual characteristics or behaviors that can be applied to HTML elements using CSS. Each property has a name and a value, which defines how the element should be styled. Examples of CSS properties include color, font-size, margin, padding, and background.",
   "timeSubmitted":"5/9/2023 04:51:43",
-  "uid":"",
+  "uid":"bMCSerl8q3VkkKAiB7Y8FAPT4Z63",
   "language_id":"-Ns-fIuqpHMA4NGJnX3t"
 },
 "-Ns-6LBLMFUJ0C_EVmj5":{
@@ -60,7 +60,7 @@
   "title":"Declaration",
   "definition":"In CSS, a declaration consists of a property and its corresponding value, enclosed within curly braces { }. Declarations are used to specify the styling rules that apply to a particular selector. Multiple declarations can be grouped together within a CSS rule to define the complete set of styles for a given selector.",
   "timeSubmitted":"12/22/2023 06:54:35",
-  "uid":"",
+  "uid":"ZJIQjh6LiSg0BXWRHxviYUR1eq42",
   "language_id":"-Ns-fIuqpHMA4NGJnX3t"
 },
 "-Ns-6LBMc2ZiU1msOUR7":{
@@ -68,7 +68,7 @@
   "title":"Class",
   "definition":"Classes are a way to apply a specific set of styles to one or more HTML elements. A class is defined in CSS using a period (.) followed by the class name. Elements with the same class attribute value can be styled consistently by referencing the class name in CSS rules.",
   "timeSubmitted":"12/17/2023 16:08:18",
-  "uid":"",
+  "uid":"ZJIQjh6LiSg0BXWRHxviYUR1eq42",
   "language_id":"-Ns-fIuqpHMA4NGJnX3t"
 },
 "-Ns-6LBNHoGe20BHCepf":{
@@ -76,7 +76,7 @@
   "title":"Pseudo-class",
   "definition":"Pseudo-classes are keywords added to selectors that specify a special state or behavior of an element that cannot be targeted using ordinary classes or IDs. Pseudo-classes allow for styling elements based on user interaction (e.g., :hover, :active), element states (e.g., :checked, :focus), or position within a document (e.g., :first-child, :last-child).",
   "timeSubmitted":"9/3/2023 12:06:33",
-  "uid":"",
+  "uid":"ZJIQjh6LiSg0BXWRHxviYUR1eq42",
   "language_id":"-Ns-fIuqpHMA4NGJnX3t"
 },
 "-Ns-6LBPqkMz_t-CUrt5":{
@@ -84,7 +84,7 @@
   "title":"Variable",
   "definition":"A variable in JavaScript is a symbolic name that represents a value. Variables are used to store and manipulate data within a program. In JavaScript, variables can hold various types of data, including numbers, strings, arrays, objects, and functions. They are declared using keywords such as var, let, or const.",
   "timeSubmitted":"4/9/2023 18:17:27",
-  "uid":"",
+  "uid":"bMCSerl8q3VkkKAiB7Y8FAPT4Z63",
   "language_id":"-Ns-fIuobn5SDI06iqO0"
 },
 "-Ns-6LBQ9DO5tVuylhYC":{
@@ -92,7 +92,7 @@
   "title":"Function",
   "definition":"A function in JavaScript is a block of reusable code that performs a specific task or calculates a value. Functions encapsulate a set of instructions and can accept inputs, called parameters, and return a result. Functions are essential for organizing code, promoting reusability, and improving readability.",
   "timeSubmitted":"3/21/2023 15:26:36",
-  "uid":"",
+  "uid":"bMCSerl8q3VkkKAiB7Y8FAPT4Z63",
   "language_id":"-Ns-fIuobn5SDI06iqO0"
 },
 "-Ns-6LBR1n-SCscqo5A0":{
