@@ -1,6 +1,6 @@
 const clearDom = () => {
+  document.querySelector('#filterContainer').innerHTML = '';
   document.querySelector('#vocab').innerHTML = '';
-  document.querySelector('#add-button').innerHTML = '';
   document.querySelector('#formContainer').innerHTML = '';
 };
 

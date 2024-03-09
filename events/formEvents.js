@@ -1,7 +1,7 @@
 import { createVocab, getVocab, updateVocab } from '../api/vocabData';
 import showVocab from '../pages/vocab';
 
-const formEvents = () => {
+const formEvents = (uid) => {
   document.querySelector('#main-container').addEventListener('submit', (e) => {
     e.preventDefault();
 
@@ -11,13 +11,14 @@ const formEvents = () => {
         title: document.querySelector('#title').value,
         definition: document.querySelector('#definition').value,
         language_id: document.querySelector('#language_id').value,
+        uid,
       };
 
       createVocab(payload).then(({ name }) => {
         const patchPayload = { firebaseKey: name };
 
         updateVocab(patchPayload).then(() => {
-          getVocab().then(showVocab);
+          getVocab(uid).then((vocab) => showVocab(vocab, uid));
         });
       });
     }
@@ -29,10 +30,11 @@ const formEvents = () => {
         definition: document.querySelector('#definition').value,
         language_id: document.querySelector('#language_id').value,
         firebaseKey,
+        uid,
       };
 
       updateVocab(payload).then(() => {
-        getVocab().then((array) => showVocab(array));
+        getVocab(uid).then((vocab) => showVocab(vocab, uid));
       });
     }
   });
