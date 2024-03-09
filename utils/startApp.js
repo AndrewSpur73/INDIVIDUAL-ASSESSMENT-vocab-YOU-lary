@@ -9,9 +9,9 @@ import showVocab from '../pages/vocab';
 
 const startApp = (uid) => {
   domBuilder(); // BUILD THE DOM
-  navBar(); // DYNAMICALLY ADD THE NAV
   domEvents(uid); // ADD THE EVENT LISTENTERS TO THE DOM
   formEvents(uid); // ADD FORM EVENT LISTENTERS TO THE DOM
+  navBar(); // DYNAMICALLY ADD THE NAV
   logoutButton(); // ADD THE LOGOUT BUTTON COMPONENT
   navEvents(uid); // ATTACH THE EVENT LISTENERS TO THE NAVBAR
 
