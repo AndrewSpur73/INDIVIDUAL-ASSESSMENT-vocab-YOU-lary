@@ -5,18 +5,16 @@ import renderToDOM from '../utils/renderToDom';
 
 const showVocab = async (array) => {
   clearDom();
-
-  // const filterButtons = () => {
-  //   const domString = `
-  //   <div class="d-flex flex-wrap justify-content-between my-3">
-  //     <button class="btn all btn-lg buttonRow" id="all">All</button>
-  //     <button class="btn html btn-lg buttonRow" id="html">HTML</button>
-  //     <button class="btn css btn-lg buttonRow" id="css">CSS</button>
-  //     <button class="btn js btn-lg buttonRow" id="js">JavaScript</button>
-  //   </div>
-  //   `;
-  //   renderToDOM('#filterContainer', domString);
-  // };
+  console.warn(array);
+  const filterString = `
+    <div class="d-flex flex-wrap justify-content-between my-3">
+      <button class="btn all btn-lg buttonRow" id="allFilter">All</button>
+      <button class="btn html btn-lg buttonRow" id="htmlFilter">HTML</button>
+      <button class="btn css btn-lg buttonRow" id="cssFilter">CSS</button>
+      <button class="btn js btn-lg buttonRow" id="jsFilter">JavaScript</button>
+    </div>
+    `;
+  renderToDOM('#filterContainer', filterString);
 
   let domString = '';
   const languages = await getLanguage();
@@ -34,7 +32,6 @@ const showVocab = async (array) => {
   </div>`;
   });
   renderToDOM('#vocab', domString);
-  // filterButtons();
 };
 
 export default showVocab;

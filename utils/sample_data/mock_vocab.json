@@ -100,7 +100,7 @@
   "title":"Conditional Statement",
   "definition":"Conditional statements in JavaScript are used to execute different code blocks based on specified conditions. The most common conditional statement is the if statement, which allows developers to test a condition and execute a block of code if the condition is true. JavaScript also supports else if and else clauses for handling multiple conditions.",
   "timeSubmitted":"7/1/2023 17:02:58",
-  "uid":"",
+  "uid":"ZJIQjh6LiSg0BXWRHxviYUR1eq42",
   "language_id":"-Ns-fIuobn5SDI06iqO0"
 },
 "-Ns-6LBSo0rrnwTPeUbr":{
@@ -108,7 +108,7 @@
   "title":"Loop",
   "definition":"A loop in JavaScript is a programming construct that repeats a block of code multiple times until a specified condition is met. JavaScript provides several types of loops, including for, while, and do-while loops, each with its own syntax and use cases. Loops are commonly used for iterating over arrays, processing lists of data, or performing repetitive tasks.",
   "timeSubmitted":"3/19/2023 18:38:05",
-  "uid":"",
+  "uid":"ZJIQjh6LiSg0BXWRHxviYUR1eq42",
   "language_id":"-Ns-fIuobn5SDI06iqO0"
 },
 "-Ns-6LBT5km3cZfQsPjC":{
@@ -116,7 +116,7 @@
   "title":"DOM (Document Object Model)",
   "definition":"The Document Object Model (DOM) is a programming interface for web documents that represents the structure of an HTML or XML document as a tree of objects. In JavaScript, the DOM provides a way to access and manipulate elements and their attributes within a web page dynamically. Developers can use DOM methods and properties to interact with the content, structure, and style of a document programmatically.",
   "timeSubmitted":"3/15/2023 17:22:49",
-  "uid":"",
+  "uid":"ZJIQjh6LiSg0BXWRHxviYUR1eq42",
   "language_id":"-Ns-fIuobn5SDI06iqO0"
 }
 }
